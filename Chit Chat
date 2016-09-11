@@ -1,0 +1,20 @@
+link soal : https://drive.google.com/open?id=0B7FIiZbLU-0vbmExRmtQenB5LUk
+clue      : suara bisa melalui online (nb : kayaknya sih gitu wwkakw)
+
+setelah melakukan download didapatkan file yang berisi pcap
+
+
+didalam file pcap tersebut terdapat banyak sekali protokol SIP, dilakukan filter pada protokol SIP 
+
+dibagian message body - line-based text data: text/plain 
+!!##!# ## !# !#!! ! !!!!! !!##!# ## !!!!# #!# !# #! !!##!# ! #! !!!!# #!# !!##!# ## !! #! !!# ## !!##!#
+
+diganti sesuai clue diatas yaitu suara (morse code)
+..--.-/--/.-/.-.././...../..--.-/--/....-/-.-/.-/-./..--.-/./-./....-/-.-/..--/-/--/../-./..-/--/..--.-
+
+setelah melakukan decode morsecode online didapatkan plaintext
+# M A L E 5 # M 4 K A N # E N 4 K # M I N U M #
+
+sayapun melakukan perbaikan dibagian plaintext tersebut agar terbentuk flagnya
+
+FLAG  : TECH2016{_male5_m4kan_en4k_minum_}
